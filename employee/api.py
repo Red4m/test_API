@@ -7,5 +7,3 @@ from employee.serializers import EmployeeListSerializer
 class EmployeeModelViewSet(viewsets.ModelViewSet):
     serializer_class = EmployeeListSerializer
     queryset = Employee.objects.all()
-
-

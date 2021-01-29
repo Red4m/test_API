@@ -5,4 +5,4 @@ from laptops.models import Laptops
 class LaptopListSerializer(serializers.ModelSerializer):
     class Meta:
         model = Laptops
-        fields = '__all__'
+        fields = "__all__"

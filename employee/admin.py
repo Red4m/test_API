@@ -5,5 +5,4 @@ from employee.models import Employee
 
 @admin.register(Employee)
 class EmployeeAdmin(admin.ModelAdmin):
-    list_display = ('name', 'avatar')
-
+    list_display = ("name", "avatar")

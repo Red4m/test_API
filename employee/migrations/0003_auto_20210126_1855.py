@@ -6,14 +6,14 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('laptops', '0001_initial'),
-        ('employee', '0002_employee_laptop'),
+        ("laptops", "0001_initial"),
+        ("employee", "0002_employee_laptop"),
     ]
 
     operations = [
         migrations.AlterField(
-            model_name='employee',
-            name='laptop',
-            field=models.ManyToManyField(blank=True, to='laptops.Laptops'),
+            model_name="employee",
+            name="laptop",
+            field=models.ManyToManyField(blank=True, to="laptops.Laptops"),
         ),
     ]
